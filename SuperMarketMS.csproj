@@ -84,6 +84,19 @@
     </Compile>
     <Compile Include="CategoriesData.cs" />
     <Compile Include="CustomersData.cs" />
+    <Compile Include="Models\CartItem.cs" />
+    <Compile Include="Repositories\ICategoryRepository.cs" />
+    <Compile Include="Repositories\CategoryRepository.cs" />
+    <Compile Include="Repositories\IProductRepository.cs" />
+    <Compile Include="Repositories\ProductRepository.cs" />
+    <Compile Include="Repositories\IUserRepository.cs" />
+    <Compile Include="Repositories\UserRepository.cs" />
+    <Compile Include="Services\CategoryService.cs" />
+    <Compile Include="Services\ProductService.cs" />
+    <Compile Include="Services\StaffService.cs" />
+    <Compile Include="Services\AuthService.cs" />
+    <Compile Include="Services\CartService.cs" />
+    <Compile Include="Services\OrderService.cs" />
     <Compile Include="FormLoad.cs">
       <SubType>Form</SubType>
     </Compile>
